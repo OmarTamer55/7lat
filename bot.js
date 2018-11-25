@@ -11,8 +11,10 @@ client.on('ready', () => {
 
 
 
-// CODES HERE
+client.on('ready', () => {
+     client.user.setActivity("Text",{type: 'WATCHING'})
 
+});
 
 
 
